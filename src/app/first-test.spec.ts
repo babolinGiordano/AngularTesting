@@ -6,13 +6,14 @@ describe('my first test', () => {
   });
 
   it('should be true if true', () => {
-    // Arrange dove si definisce l'input
+    // arrange inizializzazione dei dati di test
     sut.a = false;
 
-    // Act dove si definisce il comportamento da testare
+    // act esecuzione del codice da testare
     sut.a = true;
 
-    // Assert dove si definisce cosa mi aspetto
+    // assert verifica di cosa ci si aspetta
     expect(sut.a).toBe(true);
   });
+
 });
