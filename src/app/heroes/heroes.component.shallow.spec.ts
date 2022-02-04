@@ -1,10 +1,10 @@
-import { of } from 'rxjs';
-import { HeroService } from './../hero.service';
-import { Component, Input, NO_ERRORS_SCHEMA } from "@angular/core";
+import { Component, Input } from "@angular/core";
 import { ComponentFixture, TestBed } from "@angular/core/testing";
-import { HeroesComponent } from "./heroes.component";
-import { Hero } from '../hero';
 import { By } from '@angular/platform-browser';
+import { of } from 'rxjs';
+import { Hero } from '../hero';
+import { HeroService } from './../hero.service';
+import { HeroesComponent } from "./heroes.component";
 
 describe('HeroesComponent (shallow tests)', () => {
 
